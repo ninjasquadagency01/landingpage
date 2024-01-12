@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Empower your digital journey with NinjaSquadAPP. Effortlessly buy and discover a world of digital products. Simplify transactions and amplify your online presence today!">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <meta name="theme-color" content="#0134d4">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Title -->
+  <title>NinjaSquad - Products</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/core-img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/icons/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-180x180.png">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner-grow text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Internet Connection Status -->
+  <div class="internet-connection-status" id="internetStatus"></div>
+
+  <!-- Header Area -->
+  <div class="header-area" id="headerArea">
+    <div class="container">
+      <!-- Header Content -->
+      <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
+        <!-- Back Button -->
+        <div class="back-button">
+          <a href="pages.html">
+            <i class="bi bi-arrow-left-short"></i>
+          </a>
+        </div>
+
+        <!-- Page Title -->
+        <div class="page-heading">
+          <h6 class="mb-0">ALL Products</h6>
+        </div>
+
+        <!-- Navbar Toggler -->
+        <div class="navbar--toggler" id="affanNavbarToggler" data-bs-toggle="offcanvas" data-bs-target="#affanOffcanvas"
+          aria-controls="affanOffcanvas">
+          <span class="d-block"></span>
+          <span class="d-block"></span>
+          <span class="d-block"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- # Sidenav Left -->
+  <div class="offcanvas offcanvas-start" id="affanOffcanvas" data-bs-scroll="true" tabindex="-1"
+    aria-labelledby="affanOffcanvsLabel">
+
+    <button class="btn-close btn-close-white text-reset" type="button" data-bs-dismiss="offcanvas"
+      aria-label="Close"></button>
+
+    <div class="offcanvas-body p-0">
+      <div class="sidenav-wrapper">
+        <!-- Sidenav Profile -->
+        <div class="sidenav-profile bg-gradient">
+          <div class="sidenav-style1"></div>
+
+          <!-- User Thumbnail -->
+          <div class="user-profile">
+            <img src="img/bg-img/profile.png" alt="">
+          </div>
+
+          <!-- User Info -->
+          <div class="user-info">
+            <h6 class="user-name mb-0">Marouan Anouar</h6>
+            <span>CEO, EThical Hacker & Back-End Dev</span>
+          </div>
+        </div>
+
+        <!-- Sidenav Nav -->
+        <ul class="sidenav-nav ps-0">
+          <li>
+            <a href="home.html"><i class="bi bi-house-door"></i> Home</a>
+          </li>
+		  
+		  <li>
+            <a href="#"><i class="bi bi-cart-check"></i> Shop</a>
+            <ul>
+              <li>
+                <a href="shop-grid.html"> Products</a>
+              </li>
+			  <li>
+                <a href="our-service.html"> Services</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="#"><i class="bi bi-collection"></i> Pages
+              <span class="badge bg-success rounded-pill ms-2">100+</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="settings.html"><i class="bi bi-gear"></i> Settings</a>
+          </li>
+          <li>
+            <div class="night-mode-nav">
+              <i class="bi bi-moon"></i> Night Mode
+              <div class="form-check form-switch">
+                <input class="form-check-input form-check-success" id="darkSwitch" type="checkbox">
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <!-- Social Info -->
+        <div class="social-info-wrap">
+          <a href="https://instagram.com/marouan_anouar" target="_blank">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="https://github.com/marouananouar" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://linkedin.com/marouananouar" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+
+        <!-- Copyright Info -->
+        <div class="copyright-info">
+          <p>
+            <span id="copyrightYear"></span>
+            &copy; Made by <a href="linktr.ee/ninjasquad.agency" target="_blank">@NinjaSquad</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content-wrapper py-3">
+    <!-- Pagination -->
+    
+
+    <!-- Top Products -->
+    <div class="top-products-area">
+      <div class="container">
+        <div class="row g-3">
+
+          <!-- Single Top Product Card -->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card single-product-card">
+              <div class="card-body p-3">
+                <!-- Product Thumbnail -->
+                <a class="product-thumbnail d-block" href="shop-creation-websites-details01.html">
+                  <img src="img/bg-img/site.png" alt="">
+                  <!-- Badge -->
+                  <span class="badge bg-warning">Sale</span>
+                </a>
+                <!-- Product Title -->
+                <a class="product-title d-block text-truncate" href="shop-creation-websites-details01.html">Creation Websites</a>
+                <!-- Product Price -->
+                <p class="sale-price">$699<span>$899</span></p>
+                <a class="btn btn-primary rounded-pill btn-sm" href="shop-creation-websites-details01.html">Show Iteam</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Top Product Card -->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card single-product-card">
+              <div class="card-body p-3">
+                <!-- Product Thumbnail -->
+                <a class="product-thumbnail d-block" href="shop-creation-websites-details02.html">
+                  <img src="img/bg-img/site2.png" alt="">
+                  <!-- Badge -->
+                  <span class="badge bg-primary">-10%</span>
+                </a>
+                <!-- Product Title -->
+                <a class="product-title d-block text-truncate" href="shop-creation-websites-details02.html">Creation Websites</a>
+                <!-- Product Price -->
+                <p class="sale-price">$2499<span>$2999</span></p>
+                <a class="btn btn-primary rounded-pill btn-sm" href="shop-creation-websites-details02.html">Show Iteam</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card single-product-card">
+              <div class="card-body p-3">
+                <!-- Product Thumbnail -->
+                <a class="product-thumbnail d-block" href="shop-creation-websites-details03.html">
+                  <img src="img/bg-img/site3.png" alt="">
+                  <!-- Badge -->
+                  <span class="badge bg-info">-15%</span></a>
+                <!-- Product Title -->
+                <a class="product-title d-block text-truncate" href="shop-creation-websites-details03.html">Creation Websites</a>
+                <!-- Product Price -->
+                <p class="sale-price">$3499<span>$3999</span></p>
+                <a class="btn btn-primary rounded-pill btn-sm" href="shop-creation-websites-details03.html">Show Iteam</a>
+              </div>
+            </div>
+          </div>
+		  
+		   <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card single-product-card">
+              <div class="card-body p-3">
+                <!-- Product Thumbnail -->
+                <a class="product-thumbnail d-block" href="shop-digital-marketing-details01.html">
+                  <img src="img/bg-img/digital.png" alt="">
+                  <!-- Badge -->
+                  <span class="badge bg-info">-15%</span></a>
+                <!-- Product Title -->
+                <a class="product-title d-block text-truncate" href="shop-digital-marketing-details01.html">Digital Marketing</a>
+                <!-- Product Price -->
+                <p class="sale-price">$429/Month</p>
+                <a class="btn btn-primary rounded-pill btn-sm" href="shop-digital-marketing-details01.html">Show Iteam</a>
+              </div>
+            </div>
+          </div>
+		   <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card single-product-card">
+              <div class="card-body p-3">
+                <!-- Product Thumbnail -->
+                <a class="product-thumbnail d-block" href="shop-digital-marketing-details02.html">
+                  <img src="img/bg-img/digital2.png" alt="">
+                  <!-- Badge -->
+                  <span class="badge bg-warning">Sale</span>
+                <!-- Product Title -->
+                <a class="product-title d-block text-truncate" href="shop-digital-marketing-details02.html">Digital Marketing</a>
+                <!-- Product Price -->
+                <p class="sale-price">$719/Month</p>
+                <a class="btn btn-primary rounded-pill btn-sm" href="shop-digital-marketing-details02.html">Show Iteam</a>
+              </div>
+            </div>
+          </div>
+		   <!-- Single Top Product Card-->
+          <div class="col-6 col-sm-4 col-lg-3">
+            <div class="card single-product-card">
+              <div class="card-body p-3">
+                <!-- Product Thumbnail -->
+                <a class="product-thumbnail d-block" href="shop-digital-marketing-details03.html">
+                  <img src="img/bg-img/digital3.png" alt="">
+                  <!-- Badge -->
+                  <span class="badge bg-info">-10%</span></a>
+                <!-- Product Title -->
+                <a class="product-title d-block text-truncate" href="shop-digital-marketing-details03.html">Digital Marketing</a>
+                <!-- Product Price -->
+                <p class="sale-price">$899/Month</p>
+                <a class="btn btn-primary rounded-pill btn-sm" href="shop-digital-marketing-details03.html">Show Iteam</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="shop-pagination pt-3">
+      <div class="container">
+        <div class="card">
+          <div class="card-body py-3">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination pagination-two justify-content-center">
+                <li class="page-item">
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="shop02.html">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="shop03.html">3</a>
+                </li>
+     
+                <li class="page-item">
+                  <a class="page-link" href="shop02.html" aria-label="Next">
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Nav -->
+  <div class="footer-nav-area" id="footerNav">
+    <div class="container px-0">
+      <!-- Footer Content -->
+      <div class="footer-nav position-relative">
+        <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
+          <li>
+            <a href="home.html">
+              <i class="bi bi-house"></i>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li class="active">
+            <a href="shop-grid.html">
+              <i class="bi bi-box"></i>
+              <span>Prodect</span>
+            </a>
+          </li>
+		  
+		   <li>
+            <a href="category.html">
+              <i class="bi bi-grid-fill"></i>
+              <span>Category</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="our-service.html">
+              <i class="bi bi-shop"></i>
+              <span>Services</span>
+            </a>
+          </li>
+
+        
+
+          <li>
+            <a href="settings.html">
+              <i class="bi bi-gear"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- All JavaScript Files -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideToggle.min.js"></script>
+  <script src="js/internet-status.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+  <script src="js/vanilla-dataTables.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/dark-rtl.js"></script>
+  <script src="js/active.js"></script>
+  <script src="js/pwa.js"></script>
+</body>
+
+
+<!-- Mirrored from designing-world.com/affan-1.6.0/shop-grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 16:45:25 GMT -->
+</html>

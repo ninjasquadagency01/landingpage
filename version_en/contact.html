@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Empower your digital journey with NinjaSquadAPP. Effortlessly buy and discover a world of digital products. Simplify transactions and amplify your online presence today!">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <meta name="theme-color" content="#0134d4">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Title -->
+  <title>NinjaSquad - Contact</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/core-img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/icons/icon-96x96.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/icons/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/icons/icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/icons/icon-180x180.png">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="spinner-grow text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Internet Connection Status -->
+  <div class="internet-connection-status" id="internetStatus"></div>
+
+  <!-- Dark mode switching -->
+  <div class="dark-mode-switching">
+    <div class="d-flex w-100 h-100 align-items-center justify-content-center">
+      <div class="dark-mode-text text-center">
+        <i class="bi bi-moon"></i>
+        <p class="mb-0">Switching to dark mode</p>
+      </div>
+      <div class="light-mode-text text-center">
+        <i class="bi bi-brightness-high"></i>
+        <p class="mb-0">Switching to light mode</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- RTL mode switching -->
+  <div class="rtl-mode-switching">
+    <div class="d-flex w-100 h-100 align-items-center justify-content-center">
+      <div class="rtl-mode-text text-center">
+        <i class="bi bi-text-right"></i>
+        <p class="mb-0">Switching to RTL mode</p>
+      </div>
+      <div class="ltr-mode-text text-center">
+        <i class="bi bi-text-left"></i>
+        <p class="mb-0">Switching to default mode</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Setting Popup Overlay -->
+  <div id="setting-popup-overlay"></div>
+
+  <!-- Setting Popup Card -->
+  <div class="card setting-popup-card shadow-lg" id="settingCard">
+    <div class="card-body">
+      <div class="container">
+        <div class="setting-heading d-flex align-items-center justify-content-between mb-3">
+          <p class="mb-0">Settings</p>
+          <div class="btn-close" id="settingCardClose"></div>
+        </div>
+
+        <div class="single-setting-panel">
+          <div class="form-check form-switch mb-2">
+            <input class="form-check-input" type="checkbox" id="darkSwitch">
+            <label class="form-check-label" for="darkSwitch">Dark mode</label>
+          </div>
+        </div>
+
+        <div class="single-setting-panel">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" id="rtlSwitch">
+            <label class="form-check-label" for="rtlSwitch">RTL mode</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Area -->
+  <div class="header-area" id="headerArea">
+    <div class="container">
+      <!-- Header Content -->
+      <div class="header-content position-relative d-flex align-items-center justify-content-between">
+        <!-- Back Button -->
+        <div class="back-button">
+          <a href="pages.html">
+            <i class="bi bi-arrow-left-short"></i>
+          </a>
+        </div>
+
+        <!-- Page Title -->
+        <div class="page-heading">
+          <h6 class="mb-0">Contact</h6>
+        </div>
+
+        <!-- Settings -->
+        <div class="setting-wrapper">
+          <div class="setting-trigger-btn" id="settingTriggerBtn">
+            <i class="bi bi-gear"></i>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content-wrapper py-3">
+    <div class="container">
+      <!-- Contact Form -->
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="mb-3">Write to us</h5>
+
+          <div class="contact-form">
+            <form action="#">
+              <div class="form-group mb-3">
+                <input class="form-control" type="text" placeholder="Your name">
+              </div>
+
+              <div class="form-group mb-3">
+                <input class="form-control" type="email" placeholder="Enter email">
+              </div>
+
+              <div class="form-group mb-3">
+                <select class="form-select" name="topic">
+                  <option value="">Marketing Help</option>
+                  <option value="">Developer Help</option>
+                  <option value="">Support Technique</option>
+				  <option value="">Owner Ticket</option>
+                </select>
+              </div>
+
+              <div class="form-group mb-3">
+                <textarea class="form-control" name="textarea" cols="30" rows="10"
+                  placeholder="Please If Have Any Problem Please Send Us in **WhatsApp** Not Here."></textarea>
+              </div>
+              <button class="btn btn-primary w-100">Send Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Google Maps -->
+      <div class="card">
+        <div class="card-body">
+          <div class="google-maps">
+            <h5 class="mb-3">Our office location</h5>
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3306.7086068434255!2d-6.8363392!3d34.0256899!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2ac16ed88a961e77%3A0x6dbe017d39d800b!2sNinja%20Squad%20%7C%20Digital%20Agency!5e0!3m2!1sen!2sma!4v1702809863793!5m2!1sen!2sma" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Footer Nav -->
+  <div class="footer-nav-area" id="footerNav">
+    <div class="container px-0">
+      <!-- Footer Content -->
+      <div class="footer-nav position-relative">
+        <ul class="h-100 d-flex align-items-center justify-content-between ps-0">
+          <li class="active">
+            <a href="home.html">
+              <i class="bi bi-house"></i>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="shop-grid.html">
+              <i class="bi bi-box"></i>
+              <span>Prodect</span>
+            </a>
+          </li>
+		  
+		   <li>
+            <a href="category.html">
+              <i class="bi bi-grid-fill"></i>
+              <span>Category</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="our-service.html">
+              <i class="bi bi-shop"></i>
+              <span>Services</span>
+            </a>
+          </li>
+
+         
+
+          <li>
+            <a href="settings.html">
+              <i class="bi bi-gear"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- All JavaScript Files -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slideToggle.min.js"></script>
+  <script src="js/internet-status.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/venobox.min.js"></script>
+  <script src="js/countdown.js"></script>
+  <script src="js/rangeslider.min.js"></script>
+  <script src="js/vanilla-dataTables.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/dark-rtl.js"></script>
+  <script src="js/active.js"></script>
+  <script src="js/pwa.js"></script>
+</body>
+
+
+<!-- Mirrored from designing-world.com/affan-1.6.0/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 16:45:50 GMT -->
+</html>
